@@ -368,7 +368,7 @@ public class China extends GameActivity {
                     int wordColorNo = Color.parseColor(wordColorStr);
                     gameTile.setBackgroundColor(wordColorNo);
                 } else {
-                    String wordColorStr = "#4CAF50"; //theme green
+                    String wordColorStr = "@color/themeGreen"; //theme green
                     int wordColorNo = Color.parseColor(wordColorStr);
                     gameTile.setBackgroundColor(wordColorNo);
                 }

@@ -5,7 +5,7 @@
     android:id="@+id/mexicoCL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/white"
     tools:context=".Mexico">
 
     <ImageView
@@ -571,7 +571,7 @@
         android:padding="7dp"
         android:text="@string/pointsScored"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:autoSizeMaxTextSize="25sp"
         app:autoSizeMinTextSize="5sp"
