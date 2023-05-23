@@ -10,6 +10,8 @@ public class Util {
 
     public static String returnPlayerStringToAppend(int playerNumber) {
 
+        return String.format("%02d", playerNumber);
+        /*
         String appendedPlayerNumber;
 
         if (playerNumber < 10) {
@@ -19,7 +21,7 @@ public class Util {
         }
 
         return appendedPlayerNumber;
-
+*/
     }
 
     public static void logMemory() {
